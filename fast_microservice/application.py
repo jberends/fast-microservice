@@ -12,14 +12,14 @@ inspiration.
 from fastapi import FastAPI
 
 from fast_microservice.helpers import MiddlewareWrapper
-from fast_microservice.routers import heartbeat, versions, error
+from fast_microservice.routers import error, heartbeat, versions
 from fast_microservice.settings.globals import (
-    SENTRY_DSN,
+    API_PREFIX,
     APP_NAME,
     APP_VERSION,
     DEBUG,
+    SENTRY_DSN,
     SENTRY_ENABLED,
-    API_PREFIX,
 )
 
 ROUTERS = (heartbeat.router, versions.router, error.router)

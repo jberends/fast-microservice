@@ -1,8 +1,8 @@
 from pathlib import Path
+from typing import Optional
 
 from starlette.config import Config
 from starlette.datastructures import Secret
-from typing import Optional
 
 from fast_microservice.__about__ import __version__
 

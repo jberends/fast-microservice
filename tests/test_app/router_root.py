@@ -3,6 +3,7 @@ from fastapi.responses import HTMLResponse
 
 router = APIRouter()
 
+
 @router.get("/", response_class=HTMLResponse, name="home")
 async def get_root() -> str:
     """Echo the content of the body. """
