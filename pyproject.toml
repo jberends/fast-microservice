@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fast-microservice"
-version = "0.1.0-rc1"
+version = "0.1.0-rc2"
 description = "Small Microservice based on FastAPI"
 authors = [
     "Jochem Berends <jberends@jbits.nl>",
