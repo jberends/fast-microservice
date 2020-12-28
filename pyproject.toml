@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fast-microservice"
-version = "0.1.0-rc3"
+version = "0.1.0-rc4"
 description = "Small Microservice based on FastAPI"
 authors = [
     "Jochem Berends <jberends@jbits.nl>",
@@ -19,7 +19,6 @@ classifiers = [
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "License :: OSI Approved :: Apache Software License",
-  "Framework :: FastAPI",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.6",
