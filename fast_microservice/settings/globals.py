@@ -29,22 +29,3 @@ DEBUG: bool = config("DEBUG", cast=bool, default=True)
 # Sentry error logging
 SENTRY_ENABLED: bool = config("SENTRY_ENABLED", cast=bool, default=False)
 SENTRY_DSN: Optional[Secret] = config("SENTRY_DSN", cast=Secret, default=None)
-
-# PDF latex settings
-PDFLATEX_PATH: Path = config(
-    "PDFLATEX_PATH", cast=Path, default=Path("/usr/bin/lualatex")
-)
-DEBUG_LOG_RENDERED_TEX: bool = config(
-    "DEBUG_LOG_RENDERED_TEX", cast=bool, default=DEBUG
-)
-
-
-print(
-    f"""
-{package_root=}
-{DEBUG=}
-{SENTRY_ENABLED=}
-{SENTRY_DSN=}
-
-"""
-)
